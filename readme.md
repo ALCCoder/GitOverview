@@ -32,6 +32,9 @@ then
 **5) Create commit:**
 
     git commit -m "Info about commit"
+add repository (alliasName (may be origin) link on repository)
+
+    git remote add origin https://github.com/userName/nameRepository
 
 **6) Push commit:**
 
