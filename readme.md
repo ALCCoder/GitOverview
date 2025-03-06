@@ -9,6 +9,10 @@
 **2) For initialize project enter:** 
 
     git init
+    
+then 
+    
+    git status
 
 **3) Create add all files:**
 
@@ -18,3 +22,10 @@
     
     git commit -m "Info about commit"
 
+**4) Create commit:**
+
+    git commit -m "Info about commit"
+
+**Git error push/update**
+
+    https://stackoverflow.com/questions/68775869/message-support-for-password-authentication-was-removed
