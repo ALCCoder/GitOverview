@@ -34,6 +34,15 @@ then
 
     git tag "version_1.0"
 
+**8) Branch working:**
+
+create branch: 
+
+    git branch myBranch
+rename branch
+    
+    git branch -m newMyBranch
+
 **Git error push/update -  create token & push without cred input**
 
     https://stackoverflow.com/questions/68775869/message-support-for-password-authentication-was-removed
