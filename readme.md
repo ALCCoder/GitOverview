@@ -1,5 +1,12 @@
 ***GIT***
 
+    git sudo apt-get install git
+
+auto LF CRLF
+
+    git config core.autocrlf true
+    https://stackoverflow.com/questions/1967370/git-replacing-lf-with-crlf
+
 **1) Create git user info:**
 
     #command --global is optional, without it will be local name in project not in all projects on your device
@@ -42,6 +49,14 @@ create branch:
 rename branch
     
     git branch -m newMyBranch
+
+checkout branch
+
+    git checkout branchName
+
+merge branch
+
+    git merge branchName
 
 **Git error push/update -  create token & push without cred input**
 
