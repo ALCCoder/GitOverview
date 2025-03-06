@@ -22,10 +22,18 @@ then
     
     git commit -m "Info about commit"
 
-**4) Create commit:**
+**5) Create commit:**
 
     git commit -m "Info about commit"
 
-**Git error push/update**
+**6) Push commit:**
+
+    git push origin master"
+
+**7) Create Tag:**
+
+    git tag "version_1.0"
+
+**Git error push/update -  create token**
 
     https://stackoverflow.com/questions/68775869/message-support-for-password-authentication-was-removed
