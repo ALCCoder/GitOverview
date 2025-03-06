@@ -34,6 +34,13 @@ then
 
     git tag "version_1.0"
 
-**Git error push/update -  create token**
+**Git error push/update -  create token & push without cred input**
 
     https://stackoverflow.com/questions/68775869/message-support-for-password-authentication-was-removed
+    https://stackoverflow.com/questions/46878457/adding-git-credentials-on-windows
+    git config --global credential.helper manager-core
+
+    # Since Git 2.39+
+    git config --global credential.helper manager
+    git add --all  && git commit -m "add sout" && git push origin master
+    git config --global credential.helper store
