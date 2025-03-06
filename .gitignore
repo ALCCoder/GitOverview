@@ -13,6 +13,11 @@ target/
 *.ipr
 .idea/*
 
+###Java###
+*.class
+*.jar
+*.war
+
 ### Eclipse ###
 .apt_generated
 .classpath
